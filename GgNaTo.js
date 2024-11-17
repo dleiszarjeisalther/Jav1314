@@ -1,4 +1,4 @@
-javascript: (function() {
+function() {
 	let actionPerformed = false;
 	var pogiako=document.getElementById('single_button673963e2177346');if (pogiako){pogiako.click();actionPerformed=true}
 	var button = document.querySelector('button.btn.btn-primary[id*="single_button673"]');
@@ -42,4 +42,4 @@ javascript: (function() {
 			alert("Element not found!")
 		}
 	}
-})();
+}();
