@@ -1,4 +1,5 @@
-function greet() {
+
+functionfunctionfunction greet() {
   alert('Hello, World!');
 }
 
