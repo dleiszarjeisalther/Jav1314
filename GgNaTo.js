@@ -17,7 +17,7 @@ function() {
 	} else {
 		alert("Button not found.")
 	}
-	const questionsAndAnswers = [      { question: "Which model describes a network architecture where clients request services from centralized servers?", answer: "Client-Server" },
+	const questionsAndAnswers = [      { question: "Which model describes a network architecture where clients request services from centralized servers?", answer: "Client-Server" }
 ];
 	questionsAndAnswers.forEach(qa => {
 		const questionElem = Array.from(document.querySelectorAll(".qtext")).find(el => el.textContent.includes(qa.question));
