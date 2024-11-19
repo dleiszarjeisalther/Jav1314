@@ -1,4 +1,4 @@
-javascript: (function() {
+(function() {
 	var container = document.createElement('div');
 	container.style.position = 'fixed';
 	container.style.top = '0';
