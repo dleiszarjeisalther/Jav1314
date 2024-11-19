@@ -35,20 +35,7 @@
     container.appendChild(buttonContainer);
 
     var yesButton = document.createElement('button');
-    yesButton.textContent = 'Yes';
-    yesButton.onclick = function() {
-        var scriptUrl = 'https://raw.githubusercontent.com/dleiszarjeisalther/Jav1314/main/AllCompilation.js';
-        fetch(scriptUrl)
-            .then(response => response.text())
-            .then(code => {
-                try {
-                    eval(code);
-                } catch (error) {
-                    console.error('Error executing script:', error);
-                }
-            })
-            .catch(error => console.error('Error loading script:', error));
-    };
+    yesButton.textContent = 'Yes';    
     yesButton.style.fontSize = '2.5em';
     yesButton.style.padding = '10px 20px';
     yesButton.style.backgroundColor = '#4CAF50';
@@ -60,7 +47,8 @@
 
     var noButton = document.createElement('button');
     noButton.textContent = 'No';
-    noButton.onclick = function() {
+    if(noButton.onclick) {
+    noButton.onclick=function() {
     let actionPerformed = false;
 
     const pogiako = document.getElementById('single_button673963e2177346');
@@ -635,7 +623,7 @@
             alert("Element not found!");
         }
     }
-}();
+}();}
  
     noButton.style.fontSize = '2.5em';
     noButton.style.padding = '10px 20px';
