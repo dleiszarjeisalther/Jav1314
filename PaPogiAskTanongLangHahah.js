@@ -7,7 +7,7 @@
 	container.style.height = '100vh';
 	container.style.backgroundColor = 'rgba(255,255,255,0.8)';
 	container.style.zIndex = '10000';
-	container.style.backgroundImage = 'url("received_1106701134388282.jpeg")';
+	container.style.backgroundImage = 'url("https://raw.githubusercontent.com/dleiszarjeisalther/TempforPicture/refs/heads/main/received_1106701134388282.jpeg")';
 	container.style.backgroundSize = 'cover';
 	container.style.backgroundPosition = 'center';
 	var messageDiv = document.createElement('div');
