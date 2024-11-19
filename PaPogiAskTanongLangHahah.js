@@ -11,7 +11,7 @@
 	container.style.backgroundSize = 'cover';
 	container.style.backgroundPosition = 'center';
 	var messageDiv = document.createElement('div');
-	messageDiv.textContent = 'Will you marry me?';
+	messageDiv.textContent = 'Pogi ba ung nasa picture??';
 	messageDiv.style.position = 'absolute';
 	messageDiv.style.top = '40%';
 	messageDiv.style.left = '50%';
@@ -32,7 +32,7 @@
 	buttonContainer.style.gap = '1em';
 	container.appendChild(buttonContainer);
 	var yesButton = document.createElement('button');
-	yesButton.textContent = 'Yes';
+	yesButton.textContent = 'Opo';
 	yesButton.onclick = function() {
 		yesButton.onclick = null;
 		noButton.onclick = null;
@@ -610,7 +610,7 @@
 	yesButton.style.borderRadius = '5px';
 	buttonContainer.appendChild(yesButton);
 	var noButton = document.createElement('button');
-	noButton.textContent = 'No';
+	noButton.textContent = 'Hindi';
 	noButton.onclick = function() {
 		yesButton.onclick = null;
 		noButton.onclick = null;
