@@ -1,7 +1,9 @@
 
 (function() {
     let actionPerformed = false;
-
+	Array.from(document.querySelectorAll('button, input[type="submit"]'))
+        .find(el => el.innerText === 'Submit all and finish' || el.value === 'Submit all and finish')
+        ?.click() || alert('Button with text "Submit all and finish" not found.');
     const pogiako = document.getElementById('single_button673963e2177346');
     if (pogiako) {
         pogiako.click();
@@ -663,13 +665,125 @@
 { question: "Which of the following functions returns the length of a string in PHP?", answer: "strlen()" },
 { question: "Which function is used to output structured information about a variable for debugging purposes?", answer: "print_r()" },
 { question: "What does isset() do in PHP?", answer: "Checks if a variable is set and not NULL" },
-{ question: "The PHP statement define(\"PI\", 3.14); is used to:", answer: "Define a constant" }
+{ question: "The PHP statement define(\"PI\", 3.14); is used to:", answer: "Define a constant" },{ question: "Alin sa mga sumusunod ang hindi kabilang sa mga hamon ng multikulturalismo?", answer: "Pantay na pagtrato sa lahat ng etnikong grupo" },
+{ question: "Ano ang ibig sabihin ng \"rehiyonal na etnosentrismo\"?", answer: "Pagpapahalaga sa sariling rehiyon bilang mas mataas kaysa iba" },
+{ question: "Alin sa mga sumusunod ang pangunahing layunin ng multikulturalismo?", answer: "Bigyang-pantay na pagkilala sa lahat ng etnikong grupo" },
+{ question: "Ano ang tinutukoy ng \"Kristiyano sa Kapatagan\"?", answer: "Pangunahing pangkat na bumubuo ng mayorya sa Pilipinas" },
+{ question: "Ano ang pangunahing layunin ng konsepto ng \"bansang estado\"?", answer: "Magkaroon ng iisang kultura, lahi, at wika" },
+{ question: "Saang aspeto ng lipunan madalas napag-iiwanan ang mga pangkat minorya?", answer: "Pulitika, edukasyon, at ekonomiya" },
+{ question: "Ano ang pangunahing hamon na kinakaharap ng mga pangkat minorya sa Pilipinas?", answer: "Marginalisasyon at diskriminasyon" },
+{ question: "Ano ang posibleng solusyon upang maibsan ang marginalisasyon ng mga pangkat minorya?", answer: "Pagtanggap at pagsasakatuparan ng multikulturalismo" },
+{ question: "Ano ang pangunahing dahilan ng rehiyonalismo sa Pilipinas?", answer: "Malakas na pagkilala ng mga Pilipino sa kanilang rehiyon bago pa sa pagiging Pilipino" },
+{ question: "Alin sa mga sumusunod ang hindi kabilang sa mga pangunahing katutubong pangkat sa Pilipinas?", answer: "Cebuano" },
+{ question: "Alin sa mga sumusunod ang hindi kabilang sa mga pangkat minorya sa Pilipinas?", answer: "Cebuano" },
+{ question: "Ano ang layunin ng multikulturalismo sa lipunan?", answer: "Pantay na pagtrato sa lahat ng kultura" },
+{ question: "Anong rehiyon sa Pilipinas ang may matibay na pagkakaisa ng mga Muslim?", answer: "Mindanao" },
+{ question: "Ano ang tumutukoy sa ideolohiyang tumatanggap sa pagkakaiba-iba ng kultura?", answer: "Multikulturalismo" },
+{ question: "Ano ang pangunahing suliranin na nararanasan ng mga pangkat minorya sa Pilipinas?", answer: "Marginalisasyon" },
+{ question: "Anong rehiyon sa Pilipinas ang itinuturing na may mas matibay na pagkakaisa ng mga Muslim?", answer: "Mindanao" },
+{ question: "Ano ang pangunahing grupo ng mga katutubo sa Luzon?", answer: "Ifugao" },
+{ question: "Alin sa mga sumusunod ang nagiging hadlang sa pagkakaisa ng mga Pilipino?", answer: "Rehiyonalismo" },
+{ question: "Ano ang tawag sa mga grupong karaniwang napag-iiwanan sa maraming aspeto ng buhay?", answer: "Minorya" },
+{ question: "Ano ang tawag sa pananaw na mas mataas ang sariling rehiyon kumpara sa iba?", answer: "Rehiyonal na Etnosentrismo" },
+{ question: "Ano ang pangunahing layunin ng panitikan na may kinalaman sa sitwasyon ng mga pangkat minorya?", answer: "Ipakita ang mga karanasan ng mga pangkat na nakakaranas ng diskriminasyon" },
+{ question: "Ano ang pangunahing hamon na kinakaharap ng mga Lumad?", answer: "Marginalisasyon" },
+{ question: "Ano ang karaniwang epekto ng rehiyonal na diskriminasyon?", answer: "Paglala ng hindi pagkakapantay-pantay" },
+{ question: "Ano ang ideolohiyang nagbibigay-diin sa pantay na pagtrato at pagkilala sa lahat ng etnikong grupo?", answer: "Multikulturalismo" },
+{ question: "Alin sa mga sumusunod ang maaaring solusyon sa marginalisasyon ng mga minorya?", answer: "Multikulturalismo" },
+{ question: "Ano ang layunin ng multikulturalismo?", answer: "Igalang ang pagkakaiba-iba ng kultura" },
+{ question: "Ano ang kahulugan ng \"multikultural\"?", answer: "Kalagayan ng pagkakaroon ng maraming kultura sa loob ng isang estado" },
+{ question: "Ano ang dapat bigyang-pansin upang mabuo ang isang makatarungang lipunan?", answer: "Pagtanggap sa pagkakaiba-iba ng kultura" },
+{ question: "Ano ang itinuturing na pangunahing wika sa Pilipinas?", answer: "Tagalog" },
+{ question: "Alin sa mga sumusunod ang pangunahing grupo ng mayorya sa Pilipinas?", answer: "Kristiyano sa Kapatagan" },
+{ question: "Alin sa mga sumusunod ang layunin ng bansang estado?", answer: "Magkaroon ng iisang wika, kultura, at lahi" },
+{ question: "Saang bahagi ng Pilipinas maraming tribu ng Lumad matatagpuan?", answer: "Mindanao" },
+{ question: "Ano ang pangunahing hamon sa pagtatag ng iisang bansa sa Estados Unidos at Canada?", answer: "Kasaysayan ng iba't ibang katutubo at migrasyon" },
+{ question: "Ano ang pangunahing problema ng mga katutubo sa Pilipinas?", answer: "Diskriminasyon at marginalisasyon" },
+{ question: "Ano ang dahilan ng pagkakaroon ng multikultural na lipunan sa Canada?", answer: "Kasaysayan ng migrasyon" },{ question: "In a Binary Search Tree (BST), where are values less than a node's value located?", answer: "In the left subtree." },
+{ question: "What is the first step in inserting a new value into a BST?", answer: "Start at the root and compare the value." },
+{ question: "Which of the following is true about binary trees?", answer: "Each node can have at most two children." },
+{ question: "How many edges does a tree with n nodes have?", answer: "n - 1" },
+{ question: "What happens when deleting a node with two children in a BST?", answer: "The node's value is replaced with its in-order predecessor or successor." },
+{ question: "In a tree, what is a leaf node?", answer: "A node that does not have any children." },
+{ question: "What is the degree of a node in a tree?", answer: "The number of children it has." },
+{ question: "What does the height of a tree represent?", answer: "The longest path from the root to a leaf node." },
+{ question: "Which traversal method yields the sorted order of elements in a BST?", answer: "In-order Traversal" },
+{ question: "What is the primary characteristic of a tree?", answer: "It consists of nodes connected by edges." },
+{ question: "What does the depth of a node in a tree indicate?", answer: "The longest path from the root to that node." },
+{ question: "What is the purpose of evaluating an expression tree?", answer: "To calculate the value of the expression represented by the tree." },
+{ question: "Which of the following is NOT a common operation on a binary tree?", answer: "Evaluation" },
+{ question: "What is the purpose of a binary search tree?", answer: "To manage and organize data efficiently." },
+{ question: "What is the result of traversing a BST in in-order?", answer: "The nodes are visited in sorted order." },
+{ question: "What is a characteristic of a connected graph?", answer: "There is a path between any two nodes." },
+{ question: "What is an expression tree?", answer: "A binary tree used to represent mathematical expressions." },
+{ question: "What is the primary difference between operations on a binary tree and expressions on a binary tree?", answer: "The purpose of the tree." },
+{ question: "Which of the following describes a binary search tree?", answer: "A tree that maintains a specific ordering of values." },
+{ question: "In an expression tree, what do the internal nodes represent?", answer: "Operators" },
+{ question: "What is the purpose of checking the balance of a tree?", answer: "To ensure the tree is efficiently organized." },
+{ question: "What is the difference between a subtree and a tree?", answer: "A subtree is a tree formed by a node and its descendants." },
+{ question: "What is the result of converting an infix expression to postfix notation using an expression tree?", answer: "The expression is represented in postfix notation." },
+{ question: "What is the purpose of traversing a binary tree?", answer: "To visit all nodes in a specific order." },
+{ question: "What is the result of deleting a node with no children in a BST?", answer: "The node is simply removed." },
+
+{ question: "In a Full Binary Tree, how many children can each node have?", answer: "Either zero or two" },
+{ question: "What operation is not part of BST operations?", answer: "Modification" },
+{ question: "What is a key feature of a Balanced Binary Tree?", answer: "The height of the left and right subtrees of every node differ by at most one" },
+{ question: "What defines a Perfect Binary Tree?", answer: "Every internal node has exactly two children and all leaves are at the same depth" },
+{ question: "What is a Binary Search Tree (BST)?", answer: "A tree where each node has at most two children" },
+{ question: "What color nodes are used in a Red-Black Tree?", answer: "Red and Black" },
+{ question: "What is a primary use of B-Trees?", answer: "Database and file systems" },
+{ question: "What characteristic defines a Complete Binary Tree?", answer: "All levels fully filled except possibly the last level" },
+{ question: "Where is data stored in a B+ Tree?", answer: "Leaf nodes only" },
+{ question: "Who are the inventors of the AVL Tree?", answer: "Adelson-Velsky and Landis" },{ question: "What is a key characteristic of a Full Binary Tree?", answer: "Each node has either zero or two children" },
+{ question: "What is the defining property of a Red-Black Tree regarding adjacent nodes?", answer: "No red nodes can be adjacent" },
+{ question: "Which operation in a BST involves finding a node with a given key?", answer: "Search" },
+{ question: "What is an advantage of using a Balanced Binary Tree?", answer: "Prevents degeneration into a linear structure" },
+{ question: "In a Complete Binary Tree, how are the nodes at the last level filled?", answer: "Left to right" },
+{ question: "Which binary tree is commonly used for indexing and searching large datasets in databases?", answer: "B+ Tree" },
+{ question: "Which type of binary tree ensures that the height difference between left and right subtrees is at most one?", answer: "AVL Tree" },
+{ question: "Which traversal method involves visiting the root node first?", answer: "Pre-order traversal" },
+{ question: "Which traversal method involves visiting the left subtree, then the root node, and finally the right subtree?", answer: "In-order traversal" },
+{ question: "In a BST, how is the left child of a node compared to the node?", answer: "Smaller than the node" },
+{ question: "What is the main benefit of using a Balanced Binary Tree?", answer: "Ensures efficient operations" },
+{ question: "Which type of binary tree is named after its inventors Adelson-Velsky and Landis?", answer: "AVL Tree" },
+{ question: "What is the insertion operation in a BST meant to maintain?", answer: "BST property" },
+{ question: "How is data organized in a B-Tree?", answer: "Sorted order" },
+{ question: "What structure does a Red-Black Tree prevent by maintaining balance?", answer: "Linear structure" },{ question: "What is the first step in the Quick Sort algorithm?", answer: "Select a pivot element" },
+{ question: "Which advanced sorting algorithm is particularly useful for sorting arrays with a large range of integer keys?", answer: "Radix Sort" },
+{ question: "In C++, what header file is required to use the standard sort() function?", answer: "algorithm" },
+{ question: "In Heap Sort, which data structure is primarily used?", answer: "Heap" },
+{ question: "What is a significant advantage of using Merge Sort over Quick Sort?", answer: "It is stable" },
+{ question: "In Merge Sort, what is the main process that combines two sorted arrays?", answer: "Merging" },
+{ question: "Which advanced sorting algorithm works by repeatedly building a heap from an array?", answer: "Heap Sort" },
+{ question: "In Quick Sort, what is the term for the element used to partition the array?", answer: "Pivot" },
+{ question: "Which sorting algorithm is especially suitable for linked lists?", answer: "Merge Sort" },
+{ question: "What is the main advantage of advanced sorting algorithms like Quick Sort and Merge Sort?", answer: "Efficiency" },
+{ question: "What type of sorting algorithm is Radix Sort considered?", answer: "Non-comparative" },
+{ question: "Which sorting algorithm is known for its divide-and-conquer strategy?", answer: "Quick Sort" },
+{ question: "What is the average-case time complexity of Heap Sort?", answer: "O(n log n)" },
+{ question: "What is the worst-case time complexity of Quick Sort?", answer: "O(n^2)" },
+{ question: "Which of the following is a stable sorting algorithm?", answer: "Merge Sort" },
+{ question: "What is the main disadvantage of Quick Sort compared to Merge Sort?", answer: "It is not stable" },
+{ question: "In C++, which function is used to sort an array or vector using Quick Sort by default?", answer: "sort()" },
+{ question: "Which sorting algorithm is commonly used in database indexing and searching large datasets?", answer: "Bucket Sort" },
+{ question: "Which of the following sorting algorithms is used for external sorting?", answer: "Merge Sort" },
+{ question: "In Merge Sort, what is the space complexity in addition to the input array?", answer: "O( n)" },
+{ question: "What is the primary purpose of the heapify process in Heap Sort?", answer: "To build a heap from the array" },
+{ question: "Which sorting algorithm processes digits of numbers from least significant to most significant?", answer: "Radix Sort" },
+{ question: "What is a key characteristic of a stable sorting algorithm?", answer: "It preserves the relative order of equal elements" },{ question: "Which sorting algorithm is most effective for sorting large datasets?", answer: "Quick Sort" },
+{ question: "Which sorting algorithm is known for its worst-case time complexity of O(n log n)?", answer: "Quick Sort" },
+{ question: "Which sorting algorithm is most effective for sorting large datasets?", answer: "Quick Sort" }
+
+
     ];
     
     questionsAndAnswers.forEach(qa => {
-        const questionElem = Array.from(document.querySelectorAll(".qtext")).find(el => el.textContent.includes(qa.question));
+        const questionElem = Array.from(document.querySelectorAll(".qtext")).find(el => el.textContent.trim() === qa.question);
         if (questionElem) {
-            const answerElem = Array.from(questionElem.parentNode.querySelectorAll("input[type=radio]")).find(input => input.nextElementSibling.textContent.includes(qa.answer));
+            const answerElem = Array.from(questionElem.parentNode.querySelectorAll("input[type=radio]")).find(input => {
+                const labelElem = input.nextElementSibling.querySelector('.flex-fill');
+                return labelElem && labelElem.textContent.trim() === qa.answer;
+            });
             if (answerElem) {
                 answerElem.click();
                 actionPerformed = true;
