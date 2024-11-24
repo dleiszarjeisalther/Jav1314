@@ -1,20 +1,40 @@
 
 (function() {
     let actionPerformed = false;
-	Array.from(document.querySelectorAll('button, input[type="submit"]'))
-        .find(el => el.innerText === 'Submit all and finish' || el.value === 'Submit all and finish')
-        ?.click() || alert('Button with text "Submit all and finish" not found.');
+
+
+    var submitButton = Array.from(document.querySelectorAll('button, input[type="submit"]'))
+        .find(el => el.innerText === 'Submit all and finish' || el.value === 'Submit all and finish');
+    
+    if (submitButton) {
+        submitButton.click();
+        actionPerformed = true;
+    } else {
+        alert('Button with text "Submit all and finish" not found.');
+    }
+
+
+    const continueButton = Array.from(document.querySelectorAll('button'))
+        .find(el => el.textContent.trim() === 'Continue your attempt');
+    if (continueButton) {
+        continueButton.click();
+        actionPerformed = true;
+    }
+
+
     const pogiako = document.getElementById('single_button673963e2177346');
     if (pogiako) {
         pogiako.click();
         actionPerformed = true;
     }
 
-    const button = document.querySelector('button.btn.btn-primary[id*="single_button673"]');
-    if (button) {
-        button.click();
+
+    const primaryButton = document.querySelector('button.btn.btn-primary[id*="single_button673"]');
+    if (primaryButton) {
+        primaryButton.click();
         actionPerformed = true;
     }
+
 
     const inputButton = document.getElementById('id_submitbutton');
     if (inputButton && inputButton.value === 'Start attempt') {
@@ -22,12 +42,18 @@
         actionPerformed = true;
     }
 
+
     const lagarizz = document.querySelector('.btn.btn-primary[data-action="save"]');
     if (lagarizz) {
         lagarizz.click();
         actionPerformed = true;
     } else {
-        alert("Button not found.");
+        alert("Button with 'save' action not found.");
+    }
+
+
+    if (!actionPerformed) {
+        alert('No actions were performed.');
     }
 
     const questionsAndAnswers = [
@@ -772,7 +798,40 @@
 { question: "Which sorting algorithm processes digits of numbers from least significant to most significant?", answer: "Radix Sort" },
 { question: "What is a key characteristic of a stable sorting algorithm?", answer: "It preserves the relative order of equal elements" },{ question: "Which sorting algorithm is most effective for sorting large datasets?", answer: "Quick Sort" },
 { question: "Which sorting algorithm is known for its worst-case time complexity of O(n log n)?", answer: "Quick Sort" },
-{ question: "Which sorting algorithm is most effective for sorting large datasets?", answer: "Quick Sort" }
+{ question: "Which sorting algorithm is most effective for sorting large datasets?", answer: "Quick Sort" },{ question: "What is the key feature of responsive design?", answer: "Using flexible layouts that adapt to different screen sizes" },
+{ question: "What is the purpose of \"breakpoints\" in responsive design?", answer: "To adapt layouts to specific screen sizes" },
+{ question: "What is the primary focus of Mobile HCI?", answer: "Enhancing user interaction with mobile devices" },
+{ question: "Which of the following best represents the \"mobile-first\" design approach?", answer: "Prioritizing the design of mobile interfaces before scaling up" },
+{ question: "Which interaction gesture is commonly used to zoom in on mobile interfaces?", answer: "Pinch" },
+{ question: "What is the \"touch target\" in touchscreen interaction design?", answer: "The area on the screen designed to detect touch inputs" },
+{ question: "What is the recommended minimum size for a touch target to ensure usability?", answer: "44x44 pixels" },
+{ question: "What is the main advantage of fluid grids in responsive design?", answer: "They automatically adjust to fit screen dimensions." },
+{ question: "Which principle of Mobile HCI is concerned with minimizing the number of user actions to complete a task?", answer: "Efficiency" },
+{ question: "Which CSS technique is fundamental to implementing responsive design?", answer: "Flexbox and media queries" },
+{ question: "A responsive design layout should prioritize:", answer: "Content hierarchy and readability across all devices" },
+{ question: "How does haptic feedback enhance touchscreen interaction?", answer: "By providing tactile confirmation of user actions" },
+{ question: "In responsive design, what is the benefit of \"mobile-first\" development?", answer: "Prioritizing essential content for mobile users" },
+{ question: "Why is touch interaction considered a core component of Mobile HCI?", answer: "It allows for more natural and intuitive user experiences." },
+{ question: "Which factor is most critical for improving usability in touchscreen interfaces?", answer: "Ensuring clear visual hierarchy and spacing" },
+{ question: "What principle ensures that users receive immediate feedback for their actions on mobile interfaces?", answer: "Responsiveness" },
+{ question: "Which principle ensures that a design feels familiar and easy to navigate?", answer: "Consistency" },
+{ question: "Which of the following is a challenge in designing touchscreen interactions?", answer: "Avoiding accidental touches" },
+{ question: "Why is the \"tap\" gesture often prioritized in mobile designs?", answer: "It is the most natural interaction for users." },
+{ question: "Which of the following is NOT a responsive design practice?", answer: "Designing fixed pixel widths" },{ question: "How does \"feedback\" improve touchscreen interaction design?", answer: "It provides users with confirmation of their actions." },
+{ question: "What role do personas play in designing mobile interfaces?", answer: "They represent typical users and their needs." },
+{ question: "Which of these practices best supports responsive design?", answer: "Prioritizing flexible, grid-based designs" },
+{ question: "What is the significance of \"thumb zones\" in touchscreen design?", answer: "They indicate where gestures are most naturally performed." },
+{ question: "In mobile HCI, why is it essential to test designs across multiple devices?", answer: "To verify compatibility with various screen sizes and platforms" },
+{ question: "Analyzing user behavior to improve app responsiveness across devices involves:", answer: "Understanding screen resolution trends" },
+{ question: "What is an example of exploring how users interact with touch gestures?", answer: "Comparing scroll speed preferences across devices" },
+{ question: "Which Mobile HCI principle ensures that user interfaces adapt seamlessly to different screen sizes?", answer: "Responsive design" },
+{ question: "A mobile game uses haptic feedback to enhance user interaction. This innovation demonstrates which principle?", answer: "Multimodal interaction design" },
+{ question: "A mobile app has buttons too small to tap accurately on a smartphone. What principle is most violated?", answer: "Touchscreen interaction principles" },
+{ question: "Which statement applies the principle of responsive design?", answer: "Websites should dynamically adjust to varying screen resolutions." },
+{ question: "What type of exploration would help identify issues with double-tap gestures on touchscreens?", answer: "Observing touchscreen heatmaps" },
+{ question: "An app that uses pinch-to-zoom gestures most effectively explores which touchscreen interaction element?", answer: "Multitouch capability" },
+{ question: "A designer tests various layouts to determine which provides the best readability on different smartphones. This is an example of:", answer: "Conducting user research for responsive design" },
+{ question: "A designer creates a prototype to explore how users navigate with swipe gestures. This step belongs to which phase of Mobile HCI?", answer: "Exploration of touchscreen interactions" }
 
 
     ];
