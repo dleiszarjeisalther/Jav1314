@@ -10,7 +10,7 @@
         submitButton.click();
         actionPerformed = true;
     } else {
-        alert('Button with text "Submit all and finish" not found.');
+        
     }
 
 
@@ -48,12 +48,12 @@
         lagarizz.click();
         actionPerformed = true;
     } else {
-        alert("Button with 'save' action not found.");
+        
     }
 
 
     if (!actionPerformed) {
-        alert('No actions were performed.');
+        
     }
 
     const questionsAndAnswers = [
@@ -870,7 +870,138 @@
 { question: "How do you create a filled triangle using Java's Graphics class?", answer: "Call the fillPolygon() method with arrays for the three vertices" },
 { question: "How can you draw a polygon with overlapping sides?", answer: "Provide arrays of coordinates that cross over one another" },
 { question: "What happens if the number of x-coordinates does not match the number of y-coordinates in the fillPolygon() method?", answer: "The method will throw an IllegalArgumentException" },
-{ question: "How can you draw a complex shape like a star in Java?", answer: "Use the fillPolygon() method with the star's vertices defined in arrays" }
+{ question: "How can you draw a complex shape like a star in Java?", answer: "Use the fillPolygon() method with the star's vertices defined in arrays" },{ question: "What is a potential advancement in networking technologies?", answer: "Development of quantum networking" },
+{ question: "What is a lesson learned from the Target data breach?", answer: "Vendor security practices matter" },
+{ question: "Which strategy is effective for securing next-gen networks?", answer: "Zero trust architecture" },
+{ question: "How can AI enhance network management?", answer: "By analyzing data for optimization" },
+{ question: "Which security incident highlighted the need for improved vendor management?", answer: "SolarWinds cyberattack" },
+{ question: "What impact do emerging networks have on data management?", answer: "Improved data accessibility" },
+{ question: "Which service is commonly virtualized in NFV?", answer: "Firewalls" },
+{ question: "What is the main function of the SDN controller?", answer: "To manage and control network devices" },
+{ question: "Which of the following is a potential use case for 5G in smart cities?", answer: "Smart waste management systems" },
+{ question: "Why is it crucial to stay current with emerging trends in networking?", answer: "To remain competitive" },
+{ question: "In which sector can 5G significantly improve remote diagnostics?", answer: "Healthcare" },
+{ question: "What is a primary benefit of 5G networks?", answer: "High bandwidth" },
+{ question: "A challenge in NFV implementation is:", answer: "Integration complexity" },
+{ question: "Which company is known for implementing NFV solutions?", answer: "AT&T" },
+{ question: "What is a key driver of the evolution of networking technologies?", answer: "Increasing data consumption" },
+{ question: "Which technology marked the transition from analog to digital networking?", answer: "Fiber optics" },
+{ question: "How does SDN improve network management?", answer: "By providing centralized control" },
+{ question: "NFV primarily aims to:", answer: "Virtualize network services" },
+{ question: "Which of the following is a component of SDN architecture?", answer: "Data Plane" },
+{ question: "One key advantage of SDN is:", answer: "Enhanced network flexibility" },
+{ question: "What distinguishes NFV from traditional networking models?", answer: "Flexibility and scalability" },
+{ question: "Which of the following is a characteristic of modern networking technologies?", answer: "Increased complexity" },
+{ question: "What feature of 5G enhances the capabilities of autonomous vehicles?", answer: "Massive device connectivity" },
+{ question: "What is a common application of SDN in data centers?", answer: "Dynamic network optimization" },
+{ question: "Which is a challenge associated with 5G deployment?", answer: "High infrastructure costs" },
+{ question: "Which application exemplifies edge computing in retail?", answer: "Smart checkout systems" },
+{ question: "What is a significant security challenge for IoT networks?", answer: "Data privacy concerns" },
+{ question: "In which industry is IoT applied for predictive maintenance?", answer: "Manufacturing" },
+{ question: "IoT technology can enhance which area of agriculture?", answer: "Smart irrigation systems" },
+{ question: "Which protocol is frequently used for IoT communications?", answer: "MQTT" },
+{ question: "How does edge computing integrate with IoT?", answer: "By processing IoT data locally" },
+{ question: "What is a key component of IoT architecture?", answer: "Device and sensor integration" },
+{ question: "What is the primary concept behind edge computing?", answer: "Localized data processing" },
+{ question: "Edge computing is beneficial for:", answer: "Real-time data processing" },
+{ question: "An example of edge computing in smart cities is:", answer: "Remote traffic monitoring" },{ question: "What will the following code output? function add($x, $y) { return $x + $y; } echo add(3, 7);", answer: "10" },
+{ question: "How do you define a function with parameters in PHP?", answer: "function myFunc($param1, $param2) { }" },
+{ question: "In PHP, what will echo square(4); output if function square($n) { return $n * $n; }?", answer: "16" },
+{ question: "What will if (false) { echo \"Yes\"; } else { echo \"No\"; } display?", answer: "No" },
+{ question: "What will echo sum(5, 10); output if function sum($a, $b) { return $a + $b; } is defined?", answer: "15" },
+{ question: "Which keyword allows for the repetition of a statement or block of statements?", answer: "for" },
+{ question: "What does function calc($x) { return $x + 5; } echo calc(10); output?", answer: "15" },
+{ question: "How can you exit a loop prematurely in PHP?", answer: "break;" },
+{ question: "Which loop continues indefinitely until the condition is false?", answer: "while" },
+{ question: "Which control statement allows you to repeat a block of code while a condition is true?", answer: "while" },
+{ question: "Which of the following statements allows multiple conditions to be tested in a function?", answer: "switch" },
+{ question: "What is the output of if (10 > 5) { echo \"True\"; } else { echo \"False\"; }?", answer: "True" },
+{ question: "How do you declare a function with a parameter in PHP?", answer: "function funcName($param)" },
+{ question: "How do you call a function named calculate() in PHP?", answer: "calculate()" },
+{ question: "Which of the following is a valid function call in PHP?", answer: "functionName();" },
+{ question: "Which operator is used to check if two variables have both equal value and type?", answer: "===" },
+{ question: "What is the purpose of the for loop in PHP?", answer: "To repeat code a specific number of times" },
+{ question: "The purpose of switch statements in PHP is to:", answer: "Execute different actions based on multiple conditions" },
+{ question: "How do you define a function without parameters in PHP?", answer: "function myFunc() { }" },
+{ question: "What does the else if statement allow you to do?", answer: "Check multiple conditions sequentially" },
+{ question: "What is the output of the following code: if (10 < 5) { echo \"Yes\"; } else { echo \"No\"; }?", answer: "No" },
+{ question: "Which keyword defines a function in PHP?", answer: "function" },
+{ question: "In PHP, the else statement is used when:", answer: "The if condition is false" },
+{ question: "Which control statement is used to execute code only if a condition is true?", answer: "if" },
+{ question: "What is the output of function greet() { return \"Hello\"; } echo greet();?", answer: "Hello" },
+{ question: "What will function add($a, $b) { return $a + $b; } echo add(3, 4); output?", answer: "7" },
+{ question: "Which keyword is used to return a value from a function?", answer: "return" },
+{ question: "What is the output of if (3 == \"3\") { echo \"Equal\"; } else { echo \"Not Equal\"; }?", answer: "Equal" },
+{ question: "In PHP, which statement is used to stop a loop?", answer: "break" },
+{ question: "What does the return keyword do in a PHP function?", answer: "Stops the function and returns a value" },
+{ question: "Which operator is used to check for equality in PHP?", answer: "==" },
+{ question: "What is the output of the following code? if (10 > 5) { echo \"Greater\"; } else { echo \"Lesser\"; }", answer: "Greater" },
+{ question: "Which of the following is a built-in PHP function?", answer: "print_r()" },
+{ question: "Which function declaration is correct in PHP?", answer: "function myFunc() { }" },
+{ question: "What does an elseif statement do in PHP?", answer: "Checks an additional condition if the first condition is false" },
+{ question: "What will if ($x == 10) echo \"Equal\"; else echo \"Not Equal\"; output if $x = 5;?", answer: "Not Equal" },
+{ question: "What will function greet($name) { return \"Hello, $name\"; } return when called as greet(\"John\")?", answer: "Hello, John" },
+{ question: "What is the purpose of a switch statement in PHP?", answer: "To perform multiple actions based on different conditions" },
+{ question: "Which of the following is the correct syntax for an if statement?", answer: "if ($x == 5) { }" },
+{ question: "How do you call a function in PHP?", answer: "functionName()" },{ question: "What is a common application of hash tables in computing?", answer: "Implementing associative arrays" },
+{ question: "Which of the following is NOT a property of a good hash function?", answer: "High collision rate" },
+{ question: "How does quadratic probing avoid clustering issues?", answer: "By using quadratic intervals for probing" },
+{ question: "In linear probing, what happens if the hash table is full?", answer: "Insertion fails" },
+{ question: "What technique can improve the performance of a hash table?", answer: "Increasing the array size" },
+{ question: "Which of the following is a potential issue with linear probing?", answer: "Cluster formation" },
+{ question: "What is the primary disadvantage of using separate chaining?", answer: "It uses more memory for linked lists" },
+{ question: "What is the average-case time complexity for searching in a hash table?", answer: "O(1)" },
+{ question: "What is a primary advantage of double hashing over linear probing?", answer: "It reduces clustering" },
+{ question: "What is the primary purpose of rehashing?", answer: "To handle dynamic changes in the number of elements" },
+{ question: "When is a hash function considered good?", answer: "When it distributes keys uniformly across the hash table" },
+{ question: "What is a typical load factor threshold for resizing a hash table?", answer: "0.75" },
+{ question: "What data structure is commonly used in separate chaining to handle collisions?", answer: "Linked lists" },
+{ question: "Which operation is typically the fastest in a hash table?", answer: "All of the choices" },
+{ question: "How does separate chaining affect the performance of a hash table?", answer: "It reduces the number of collisions" },
+{ question: "Which hashing technique uses a quadratic function to resolve collisions?", answer: "Quadratic probing" },
+{ question: "What is the primary purpose of a hash function?", answer: "To compute an index for keys in a hash table" },
+{ question: "What happens when a hash table is resized?", answer: "All elements are rehashed" },
+{ question: "Which of the following is a collision resolution technique in open addressing?", answer: "Linear probing" },
+{ question: "What is a hash table?", answer: "A data structure that maps keys to values using a hash function" },
+{ question: "What is a key characteristic of separate chaining?", answer: "It stores multiple elements in the same bucket using linked lists" },
+{ question: "What is the load factor in a hash table?", answer: "The ratio of used slots to the total number of slots" },
+{ question: "In double hashing, what is used to resolve collisions?", answer: "A second hash function" },
+{ question: "Which of these is not a type of hashing technique?", answer: "Binary hashing" },
+{ question: "What does linear probing do when a collision occurs?", answer: "Checks the next slot in the array sequentially" },{ question: "Which of the following is a benefit of accessible design for users without disabilities?", answer: "Improved usability for all users" },
+{ question: "What is the role of captions in accessibility?", answer: "To provide text alternatives for audio content" },
+{ question: "Which of the following is an ethical consideration in inclusive design?", answer: "Ensuring equal access to technology for all users" },
+{ question: "What is an example of a design consideration for users with dyslexia?", answer: "Using simple, sans-serif fonts" },
+{ question: "Which principle of accessibility ensures that web content works well with a variety of user agents, including assistive technologies?", answer: "Robust" },
+{ question: "Which of the following is a common tool used to evaluate web accessibility?", answer: "WebAIM WAVE" },
+{ question: "Which principle of accessibility involves providing text alternatives for non-text content?", answer: "Perceivable" },
+{ question: "What is the main goal of accessibility in design?", answer: "To make products usable by people with disabilities" },
+{ question: "What does the principle of \"Operable\" mean in web accessibility?", answer: "User interface components must be operable" },
+{ question: "Ethically, why is it important to design accessible products?", answer: "It promotes inclusion and equal access" },
+{ question: "What is an important aspect of designing for users with cognitive disabilities?", answer: "Providing clear and simple instructions" },
+{ question: "In the context of accessibility, what does the term \"assistive technology\" refer to?", answer: "Devices or software that assist people with disabilities in using technology" },
+{ question: "Which of the following is an example of a design consideration for users with color blindness?", answer: "Using high contrast color schemes" },
+{ question: "Which legal act in the United States requires federal agencies to make their electronic and information technology accessible to people with disabilities?", answer: "Section 508" },
+{ question: "What does WCAG stand for?", answer: "Web Content Accessibility Guidelines" },
+{ question: "What is the purpose of assistive technologies in accessibility?", answer: "To assist individuals with disabilities in interacting with technology" },
+{ question: "What is a key ethical consideration in accessibility design?", answer: "Ensuring equal access for all users" },
+{ question: "Which legal framework governs the accessibility of public sector websites in the European Union?", answer: "EN 301 549" },
+{ question: "Which of the following best describes \"assistive technology\"?", answer: "Devices or software that help people with disabilities use technology" },
+{ question: "What is a key benefit of accessible design for businesses?", answer: "Broader customer base" },
+{ question: "Why is it important to provide text alternatives for non-text content?", answer: "To make content accessible to screen readers" },
+{ question: "Which principle of accessibility focuses on ensuring content is usable by all individuals, regardless of the device they are using?", answer: "Robust" },
+{ question: "Which design practice is essential for users with low vision?", answer: "Using high contrast text and background" },
+{ question: "What does \"inclusive design\" aim to achieve?", answer: "Products that are usable by all people, to the greatest extent possible" },
+{ question: "Which of the following tools is used to evaluate the accessibility of web content?", answer: "WebAIM WAVE" },
+{ question: "Which U.S. legislation requires electronic and information technology developed, procured, maintained, or used by federal agencies to be accessible to people with disabilities?", answer: "Section 508" },
+{ question: "What is the key focus of the \"Perceivable\" principle in WCAG?", answer: "Ensuring content can be seen or heard by users" },
+{ question: "Which design principle helps users with cognitive disabilities?", answer: "Providing clear and simple instructions" },
+{ question: "Which act in the United States prohibits discrimination based on disability in public services, employment, and accommodations?", answer: "ADA" },
+{ question: "What does the principle of \"Robust\" mean in the context of accessibility?", answer: "Content must be compatible with current and future user tools" },
+{ question: "What does the term \"legal compliance\" refer to in the context of accessibility?", answer: "Adhering to laws and regulations related to accessibility" },
+{ question: "Why is it important to involve people with disabilities in the design process?", answer: "To ensure the product meets their needs" },
+{ question: "Which of the following is NOT a component of the Web Content Accessibility Guidelines (WCAG)?", answer: "Scalable" },
+{ question: "What is an example of designing for users with hearing impairments?", answer: "Providing text captions for audio content" },
+{ question: "Which principle of accessibility emphasizes that web pages should appear and operate in predictable ways?", answer: "Understandable" }
 
 
     ];
@@ -889,18 +1020,14 @@
         }
     });
 
-    const nextNav = document.getElementById('mod_quiz-next-nav');
-    if (nextNav) {
-        nextNav.click();
-        actionPerformed = true;
-    }
+    const nextNav = document.getElementById('mod_quiz-next-nav');     if (nextNav) {         const delay = Math.floor(Math.random() * 5) + 5;         setTimeout(() => {             nextNav.click();             actionPerformed = true;         }, delay * 1000);     }
 
-    if (!actionPerformed) {
-        const element = document.getElementById('next-activity-link');
-        if (element) {
-            element.click();
-        } else {
-            alert("Element not found!");
-        }
-    }
+    	if (!actionPerformed) {
+		const element = document.getElementById('next-activity-link');
+		if (element) {
+			element.click();
+		} else {
+			
+		}
+	}
 })();
