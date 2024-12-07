@@ -3870,6 +3870,145 @@
 		{
 			question: "Which country has enacted data localization laws that require companies to store personal data within its borders?",
 			answer: "Russia"
+		}, {
+			question: "Ano ang pangunahing layunin ng diaspora sa modernong panahon?",
+			answer: "Pagpapabuti ng ekonomiya ng migrante"
+		},
+		{
+			question: "Ano ang simbolismo ng tula na “Ang Paglisan”?",
+			answer: "Pagpapaalam sa lupang sinilangan"
+		},
+		{
+			question: "Ano ang isa sa mga pangunahing isyung kinakaharap ng mga OFW?",
+			answer: "Kalungkutan at pagkakahiwalay sa pamilya"
+		},
+		{
+			question: "Anong wika ang natutunan ng may-akda sa paninirahan niya sa Panay?",
+			answer: "Hiligaynon"
+		},
+		{
+			question: "Alin sa mga sumusunod ang HINDI dahilan ng migrasyon?",
+			answer: "Pagpapalawak ng kalakal"
+		},
+		{
+			question: "Pagkakaroon ng karagdagang anakAnong salik ang HINDI direktang nauugnay sa diaspora?",
+			answer: "Pag-unlad ng teknolohiya"
+		},
+		{
+			question: "Ano ang pangunahing kahulugan ng salitang \"Diaspora\"?",
+			answer: "Pagkalat ng populasyon mula sa kanilang lugar ng pinagmulan"
+		},
+		{
+			question: "Ano ang mahalagang natuklasan ng may-akda sa paninirahan sa Panay?",
+			answer: "Ang yaman ng kultura at kasaysayan ng lugar"
+		},
+		{
+			question: "Ano ang pinakakaraniwang epekto ng migrasyon sa pamilya ng migrante?",
+			answer: "Panandaliang pagkakahiwala"
+		},
+		{
+			question: "Ano ang pangunahing papel ni Enrique sa ekspedisyon ni Magellan?",
+			answer: "Interpreter para sa mga katutubo"
+		},
+		{
+			question: "Ano ang isa sa mga dahilan kung bakit naganap ang diaspora sa kasaysayan?",
+			answer: "Krisis sa pagkain at populasyon"
+		},
+		{
+			question: "Ano ang karaniwang epekto ng diaspora sa isang kultura?",
+			answer: "Pagyaman ng lokal na kultura sa pamamagitan ng impluwensya"
+		},
+		{
+			question: "Ano ang pangunahing hamon ng mga lumalahok sa diaspora?",
+			answer: "Pag-aadjust sa bagong kultura"
+		},
+		{
+			question: "Sino ang itinuturing na unang OFW na Pilipino sa kasaysayan?",
+			answer: "Enrique"
+		},
+		{
+			question: "Bakit mahalaga ang pagtuklas ng sariling pinagmulan ayon sa artikulo?",
+			answer: "Upang mas maintindihan ang sariling pagkakakilanlan"
+		},
+		{
+			question: "Ano ang nag-udyok kay Enrique na manatili sa Pilipinas?",
+			answer: "Pagkakataong makabalik sa sariling tahanan"
+		},
+		{
+			question: "Ano ang pangunahing layunin ng artikulo tungkol sa migrasyon at diaspora?",
+			answer: "Magpaliwanag ng mga dahilan at epekto ng migrasyon"
+		},
+		{
+			question: "Ano ang isinasaad ng kasaysayan tungkol sa mga sinaunang Griyego at diaspora?",
+			answer: "Naghanap sila ng solusyon sa lumalaking populasyon"
+		},
+		{
+			question: "Ano ang pangunahing dahilan ng diaspora ayon sa kasaysayan?",
+			answer: "Pangangailangang tumakas mula sa magulong kalagayan"
+		},
+		{
+			question: "Ano ang pangunahing dahilan kung bakit maraming Pilipino ang pumipiling magtrabaho sa ibang bansa?",
+			answer: "Mas mataas na kita"
+		},
+		{
+			question: "Bakit mahalaga ang pagtuklas sa lugar ng pinagmulan ayon sa kwento ng may-akda?",
+			answer: "Dahil ito ang nagbubuo ng kanyang pagkatao at pagkakakilanlan"
+		},
+		{
+			question: "Sino ang unang Pilipinong banyagang manggagawa ayon sa kasaysayan?",
+			answer: "Enrique (Trapobana)"
+		},
+		{
+			question: "Ano ang kahulugan ng \"Diaspora\"?",
+			answer: "Sapilitang paglisan ng tao mula sa kanilang tradisyunal na tahanan"
+		},
+		{
+			question: "Alin sa mga sumusunod ang hindi karaniwang dahilan ng migrasyon?",
+			answer: "Pagnanais ng bakasyon sa ibang bansa"
+		},
+		{
+			question: "Ano ang pangunahing layunin ng diaspora ayon sa kasaysayan?",
+			answer: "Pagtugon sa lumalaking populasyon sa isang lugar"
+		},
+		{
+			question: "Paano makaaapekto ang diaspora sa kultura ng isang tao?",
+			answer: "Nagiging bukas ang tao sa impluwensya ng iba’t ibang kultura"
+		},
+		{
+			question: "Kung ikaw ay bahagi ng isang diaspora, paano mo malalaman ang iyong kontribusyon sa bansang iyong pinuntahan?",
+			answer: "Lahat ng nabanggit"
+		},
+		{
+			question: "Sa konteksto ng kasaysayan, paano nagkaroon ng diaspora si Enrique, ang unang \"Balikbayan\"?",
+			answer: "Siya ay napilitang sumama bilang alipin ngunit kalaunan ay nanatili sa Cebu"
+		},
+		{
+			question: "Paano maaaring maging positibo ang epekto ng migrasyon sa sariling bansa ng mga migrante?",
+			answer: "Lahat ng nabanggit"
+		},
+		{
+			question: "Paano makatutulong ang isang OFW sa ekonomiya ng Pilipinas?",
+			answer: "Sa pamamagitan ng remittances o padalang pera"
+		},
+		{
+			question: "Ano ang pangunahing dahilan ng migrasyon ng mga Pilipino sa ibang bansa?",
+			answer: "Mas mataas na kita sa ibang bansa"
+		},
+		{
+			question: "Kung ikaw ay bahagi ng diaspora, paano mo mapapanatili ang koneksyon sa iyong kultura habang naninirahan sa ibang bansa?",
+			answer: "Magtayo ng samahan para sa mga kababayan"
+		},
+		{
+			question: "Kung ikaw ay isang lider, paano mo gagamitin ang konsepto ng diaspora upang makabuo ng mas inklusibong patakaran?",
+			answer: "Lahat ng nabanggit"
+		},
+		{
+			question: "Kung ikaw ay mag-aaral, paano mo gagamitin ang aral ng diaspora upang mas maunawaan ang kasaysayan ng Pilipinas?",
+			answer: "Lahat ng nabanggit"
+		},
+		{
+			question: "Ano ang pagkakaiba ng \"diaspora\" at \"migrasyon\"?",
+			answer: "Ang diaspora ay sapilitang paglisan, samantalang ang migrasyon ay maaaring boluntaryo"
 		}
 
 
