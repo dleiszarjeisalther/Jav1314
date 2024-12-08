@@ -4009,6 +4009,284 @@
 		{
 			question: "Ano ang pagkakaiba ng \"diaspora\" at \"migrasyon\"?",
 			answer: "Ang diaspora ay sapilitang paglisan, samantalang ang migrasyon ay maaaring boluntaryo"
+		}, {
+			question: "Ano ang tawag sa paggamit ng mga matatalinghagang salita sa tula?",
+			answer: "Talinghaga"
+		},
+		{
+			question: "Anong bahagi ng tula ang nagsasaad ng pangalan ng akda?",
+			answer: "Pamagat"
+		},
+		{
+			question: "Ano ang pangunahing layunin ng pagsusuri ng tula?",
+			answer: "Maunawaan ang sukat at tugma ng tula"
+		},
+		{
+			question: "Anong uri ng dula ang tumatalakay sa mga kaganapan na nagdudulot ng kasiyahan at pagpapatawa sa mga manonood?",
+			answer: "Komedya"
+		},
+		{
+			question: "Ano ang tawag sa pagpapakita ng mga natural na pangyayari at kapaligiran sa kwento ng katutubong kulay?",
+			answer: "Tagpuan"
+		},
+		{
+			question: "Anong uri ng kwento ang nakatuon sa dramatikong pangyayari na may malaking epekto sa buhay ng tauhan?",
+			answer: "Kwento ng madulang pangyayari"
+		},
+		{
+			question: "Ano ang tinatawag na \"simula at wakas\" sa pagsusuri ng maikling kwento?",
+			answer: "Panimula at katapusan ng kwento"
+		},
+		{
+			question: "Alin sa mga sumusunod na uri ng tula ang nagpapahayag ng damdamin at saloobin ng may-akda o tauhan?",
+			answer: "Tulang Liriko"
+		},
+		{
+			question: "Ano ang layunin ng pagsusuri ng kwento ng pakikipagsapalaran sa konteksto ng aksyon at pagsubok ng tauhan?",
+			answer: "Malaman ang pag-unlad ng pangunahing tauhan sa kanilang misyon"
+		},
+		{
+			question: "Ano ang pinakamahalagang elemento sa pagsusuri ng kwento ng katutubong kulay?",
+			answer: "Pag-unawa sa kultura at tradisyon ng isang komunidad"
+		},
+		{
+			question: "Ano ang pangunahing layunin ng pagsusuri sa kwento ng kababalaghan?",
+			answer: "Ipakita ang supernatural na kaganapan"
+		},
+		{
+			question: "Ano ang pangunahing layunin ng pagsusuri ng tauhan sa isang maikling kwento?",
+			answer: "Malaman ang kanyang mga desisyon at emosyon"
+		},
+		{
+			question: "Alin sa mga sumusunod na elemento ang tumutukoy sa bilang ng pantig sa bawat taludtod ng tula?",
+			answer: "Sukat"
+		},
+		{
+			question: "Ano ang layunin ng pagsusuri ng dula sa pamamagitan ng teoryang pisikal?",
+			answer: "Ibigay ang kahulugan ng mga simbolo sa kwento"
+		},
+		{
+			question: "Ano ang layunin ng pagsusuri ng dula sa pamamagitan ng teoryang dramatiko?",
+			answer: "Pagsusuri ng mga teknikal na aspeto ng produksyon"
+		},
+		{
+			question: "Ano ang layunin ng pagsusuri ng dula sa pamamagitan ng teoryang panglipunan?",
+			answer: "Tukuyin ang kamalayang panlipunan ng akda"
+		},
+		{
+			question: "Ano ang layunin ng kwento ng pakikipagsapalaran?",
+			answer: "Ipakita ang mga pagsubok at paglalakbay ng tauhan"
+		},
+		{
+			question: "Ano ang layunin ng pagsusuri ng kwento ng katatakutan?",
+			answer: "Magdulot ng takot at pangamba"
+		},
+		{
+			question: "Anong uri ng tula ang walang sinusunod na sukat o tugma?",
+			answer: "Malayang taludturan"
+		},
+		{
+			question: "Alin sa mga sumusunod na elemento ng dula ang tumutukoy sa mga linya na binibigkas ng mga tauhan?",
+			answer: "Dayalogo"
+		},
+		{
+			question: "Sa pagsusuri ng tula, ano ang tawag sa paggamit ng mga matatalinghagang salita at pahayag?",
+			answer: "Talinghaga"
+		},
+		{
+			question: "Ano ang tawag sa isang dula na nagpapakita ng nakakatawang mga eksena at aksyon?",
+			answer: "Saynete"
+		},
+		{
+			question: "Ano ang layunin ng tulang liriko o pandamdamin?",
+			answer: "Magpahayag ng damdamin at saloobin ng may-akda"
+		},
+		{
+			question: "Ano ang pangunahing katangian ng kwento ng pakikipagsapalaran?",
+			answer: "Nakatuon sa mga kapana-panabik at mahahalagang pangyayari"
+		},
+		{
+			question: "Alin sa mga sumusunod ang hindi isang elemento ng tula?",
+			answer: "Dayalogo"
+		},
+		{
+			question: "Ano ang layunin ng kwento ng katutubong kulay?",
+			answer: "Itampok ang kultura, tradisyon, at mga kaugalian ng isang komunidad"
+		},
+		{
+			question: "Ano ang pangunahing layunin ng pagsusuri ng tauhan sa maikling kwento?",
+			answer: "Alamin ang pagkatao at pag-unlad ng tauhan"
+		},
+		{
+			question: "Ano ang pangunahing layunin ng pagsusuri ng tula?",
+			answer: "Pag-aaral sa sukat at tugma ng tula"
+		},
+		{
+			question: "Ano ang tawag sa pagkakasunod-sunod ng mga pangyayari sa isang kwento?",
+			answer: "Banghay"
+		},
+		{
+			question: "Alin sa mga sumusunod ang hindi isang uri ng maikling kwento?",
+			answer: "Kwento ng Katotohanan"
+		},
+		{
+			question: "Alin sa mga anyo ng tula ang walang sukat ngunit may tugma?",
+			answer: "Berso Blangko"
+		},
+		{
+			question: "Aling uri ng dula ang may malulungkot na pangyayari ngunit nagwawakas sa kasiyahan?",
+			answer: "Melodrama"
+		},
+		{
+			question: "Ano ang elemento ng maikling kwento na tumutukoy sa pagkakasunod-sunod ng mga pangyayari?",
+			answer: "Banghay"
+		},
+		{
+			question: "Anong uri ng maikling kwento ang nakatuon sa damdamin at kaisipan ng mga tauhan?",
+			answer: "Kwentong Sikolohiko"
+		},
+		{
+			question: "Ano ang tawag sa elemento ng dula na nagpapahayag ng emosyon at mensahe ng mga tauhan?",
+			answer: "Dayalogo"
+		}, {
+			question: "Ano ang pangunahing layunin ng pagsusuri ng akda?",
+			answer: "Upang matukoy ang mga mali sa istruktura at wika"
+		},
+		{
+			question: "Bakit mahalaga ang feedback mula sa kapwa kalahok?",
+			answer: "Upang mapabuti ang akda batay sa ibang pananaw"
+		},
+		{
+			question: "Ano ang pangunahing layunin ng pagsusulat ng unang draft ng akda?",
+			answer: "Para masimulan ang akda kahit hindi perpekto"
+		},
+		{
+			question: "Alin sa mga sumusunod ang isang halimbawa ng kwento ng tauhan?",
+			answer: "Kwento ng buhay ng isang tao at ang kanyang pagbabago"
+		},
+		{
+			question: "Alin sa sumusunod ang pinakamahalagang aspeto ng maikling kwento?",
+			answer: "Mabilis na pagtaas ng kawilihan tungo sa wakas"
+		},
+		{
+			question: "Bakit angkop ang maikling kwento para sa mga abalang mambabasa?",
+			answer: "Dahil ito ay madaling mabasa at kapupulutan ng aral"
+		},
+		{
+			question: "Ano ang pinakamahalagang aspeto sa rebisyon ng tula?",
+			answer: "Pagpapahusay ng imahe at wika"
+		},
+		{
+			question: "Ano ang nararapat na gawin pagkatapos magpasa ng akda sa facilitator?",
+			answer: "Maghintay ng feedback at gamitin ito sa susunod na pagsusulat"
+		},
+		{
+			question: "Alin ang pangunahing layunin ng pagninilay pagkatapos ng worksyap?",
+			answer: "Upang mas mapalalim ang sariling natutunan"
+		},
+		{
+			question: "Ano ang pinakamahalagang katangian ng isang maikling kwento?",
+			answer: "Kapayakan, kakaunti ang tauhan, at mahalagang tagpo"
+		},
+		{
+			question: "Sa pagsusulat ng maikling kwento, ano ang pinakamahalagang elemento?",
+			answer: "Banghay, tauhan, at aral"
+		},
+		{
+			question: "Ano ang pangunahing katangian ng maikling kwento?",
+			answer: "Nagpapakita ng mahalagang tagpo at mabilis na pagtaas ng kawilihan"
+		},
+		{
+			question: "Alin sa mga sumusunod ang dapat tandaan sa pagrebisa ng akda?",
+			answer: "Pagtiyak na maayos ang istruktura at wika"
+		},
+		{
+			question: "Ano ang unang bahagi ng isang worksyap sa pagsusulat?",
+			answer: "Pagsulat ng Draft"
+		},
+		{
+			question: "Ano ang layunin ng isang worksyap sa pagsusulat ng akdang pampanitikan?",
+			answer: "Palaguin ang kasanayan sa pagsulat, rebisyon, at pagpapasa ng akda"
+		},
+		{
+			question: "Anong aspeto ang kailangang pagtuunan ng pansin sa pagrebisa ng wika?",
+			answer: "Paggamit ng malinaw at malikhain na salita"
+		},
+		{
+			question: "Bakit inirerekomendang humingi ng opinyon mula sa iba habang nagre-rebisa?",
+			answer: "Para matiyak na nauunawaan ng iba ang nilalaman ng kwento"
+		},
+		{
+			question: "Anong uri ng maikling kwento ang tumatalakay sa kakaibang pangyayari o karanasan?",
+			answer: "Kwento ng Kababalaghan"
+		},
+		{
+			question: "Sa anong bahagi ng worksyap tinitiyak na ang output ay nasa pinakamahusay na bersyon nito?",
+			answer: "Pagpasa ng Awtoradong Output"
+		},
+		{
+			question: "Alin ang hindi kabilang sa mga elemento ng maikling kwento?",
+			answer: "Lohika"
+		},
+		{
+			question: "Alin sa mga sumusunod ang mahalagang katangian ng maikling kwento?",
+			answer: "May mahalagang tagpo at mabilis na pagtaas ng kawilihan"
+		},
+		{
+			question: "Anong bahagi ng worksyap ang tumutulong upang mapabuti ang isinulat na akda?",
+			answer: "Pagrebisa"
+		},
+		{
+			question: "Alin ang pinakamahalagang bagay na dapat isaalang-alang sa unang draft?",
+			answer: "Mismong ideya at damdamin"
+		},
+		{
+			question: "Bakit mahalagang gamitin ang makukulay na paglalarawan sa akda?",
+			answer: "Upang mas madaling ma-imagine ng mambabasa"
+		},
+		{
+			question: "Sa anong bahagi ng worksyap nagaganap ang pagpapabuti ng wika at istruktura?",
+			answer: "Pagrebisa"
+		},
+		{
+			question: "Ano ang pangunahing kahalagahan ng maikling kwento?",
+			answer: "Nagpapamalas ng mabilis na kwento na may mahalagang aral"
+		},
+		{
+			question: "Ano ang pangunahing layunin ng isang worksyap sa pagsusulat?",
+			answer: "Upang mapalawak at mapalalim ang kakayahan sa pagsusulat"
+		},
+		{
+			question: "Alin sa mga sumusunod ang mahalaga sa pagsusuri ng isang maikling kwento?",
+			answer: "Banghay at tauhan"
+		},
+		{
+			question: "Ano ang mahalaga sa pagbibigay ng feedback sa kapwa kalahok?",
+			answer: "Tanggapin ang kritika upang mapabuti ang sining ng pagsusulat"
+		},
+		{
+			question: "Sa pagsusulat ng sanaysay, ano ang pinakaangkop na paksa?",
+			answer: "Isang bagay na mahalaga at malapit sa puso ng may-akda"
+		},
+		{
+			question: "Anong uri ng maikling kwento ang karaniwang may tauhang dumaraan sa mahirap na sitwasyon ngunit may mahalagang aral?",
+			answer: "Kwento ng Madulang Pangyayari"
+		},
+		{
+			question: "Ano ang layunin ng reflection session?",
+			answer: "Upang malaman kung ano ang natutunan ng mga kalahok"
+		},
+		{
+			question: "Ano ang dapat bigyang-pansin sa pagsusuri ng tula?",
+			answer: "Tema, tugma, at simbolismo"
+		},
+		{
+			question: "Sa pagsulat ng unang draft, ano ang pinakaunang dapat gawin?",
+			answer: "Isulat ang ideya at damdamin nang hindi alintana ang detalye"
+		},
+		{
+			question: "Alin ang layunin ng feedback session sa worksyap?",
+			answer: "Upang higit pang mapabuti ang sining ng pagsusulat"
 		}
 
 
